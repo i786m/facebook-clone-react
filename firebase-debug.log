@@ -44,3 +44,63 @@ You're about to initialize a Firebase project in this directory:
 [info] will contain Hosting assets to be uploaded with firebase deploy. If you
 [info] have a build process for your assets, use your build's output directory.
 [info] 
+[debug] [2021-06-15T15:17:01.343Z] ----------------------------------------------------------------------
+[debug] [2021-06-15T15:17:01.347Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Sadru\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-06-15T15:17:01.347Z] CLI Version:   9.12.1
+[debug] [2021-06-15T15:17:01.348Z] Platform:      win32
+[debug] [2021-06-15T15:17:01.348Z] Node Version:  v14.16.0
+[debug] [2021-06-15T15:17:01.349Z] Time:          Tue Jun 15 2021 16:17:01 GMT+0100 (British Summer Time)
+[debug] [2021-06-15T15:17:01.349Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-06-15T15:17:01.369Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-06-15T15:17:01.369Z] > authorizing via signed-in user (imran.b.mohamed@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Sadru\Desktop\facebook-clone
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-06-15T15:17:31.655Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-06-15T15:17:31.934Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-06-15T15:17:31.934Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project facebook-clone-imran (facebook-clone-imran) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2021-06-15T15:18:28.178Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2021-06-15T15:18:28.226Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2021-06-15T15:18:28.226Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"8.6.7","browserURL":"https://www.gstatic.com/firebasejs/8.6.7/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/8.6.7/firebase.tgz"},"live":{"version":"8.6","browserURL":"https://www.gstatic.com/firebasejs/live/8.6/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/8.6/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/8.6.7/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js","database":"https://www.gstatic.com/firebasejs/8.6.7/firebase-database.js","firestore":"https://www.gstatic.com/firebasejs/8.6.7/firebase-firestore.js","functions":"https://www.gstatic.com/firebasejs/8.6.7/firebase-functions.js","installations":"https://www.gstatic.com/firebasejs/8.6.7/firebase-installations.js","messaging":"https://www.gstatic.com/firebasejs/8.6.7/firebase-messaging.js","storage":"https://www.gstatic.com/firebasejs/8.6.7/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/8.6.7/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/8.6.7/firebase-remote-config.js","firestore.memory":"https://www.gstatic.com/firebasejs/8.6.7/firebase-firestore.memory.js"}}
+[info] +  Wrote build/index.html 
+[info] 
+[info] i  Detected a .git folder at C:\Users\Sadru\Desktop\facebook-clone 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=5617548&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2021-06-15T15:18:33.055Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"0b36a45c7afe27b85462","redirect_uri":"http://localhost:9005","state":"5617548"}
+[debug] [2021-06-15T15:18:33.430Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Tue, 15 Jun 2021 15:20:38 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","vary":"X-PJAX, Accept-Encoding, Accept, X-Requested-With","permissions-policy":"interest-cohort=()","etag":"W/\"af07b97649b88b93c9ac4ff6c8ccbd60\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"0","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com html-translator.herokuapp.com cdn.optimizely.com logx.optimizely.com/v1/events wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/socket-worker-3f088aa2.js gist.github.com/socket-worker-3f088aa2.js","x-github-request-id":"DFC3:DBA6:291EEAF:2A65C02:60C8C546"}
+[debug] [2021-06-15T15:18:33.528Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2021-06-15T15:18:33.906Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2021-06-15T15:18:33.906Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"i786m","id":71926855,"node_id":"MDQ6VXNlcjcxOTI2ODU1","avatar_url":"https://avatars.githubusercontent.com/u/71926855?v=4","gravatar_id":"","url":"https://api.github.com/users/i786m","html_url":"https://github.com/i786m","followers_url":"https://api.github.com/users/i786m/followers","following_url":"https://api.github.com/users/i786m/following{/other_user}","gists_url":"https://api.github.com/users/i786m/gists{/gist_id}","starred_url":"https://api.github.com/users/i786m/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/i786m/subscriptions","organizations_url":"https://api.github.com/users/i786m/orgs","repos_url":"https://api.github.com/users/i786m/repos","events_url":"https://api.github.com/users/i786m/events{/privacy}","received_events_url":"https://api.github.com/users/i786m/received_events","type":"User","site_admin":false,"name":"Imran Mohamed","company":"Imran Mohamed","blog":"https://www.imranbmohamed.com","location":"London,UK","email":null,"hireable":null,"bio":null,"twitter_username":"imran786mohamed","public_repos":59,"public_gists":0,"followers":20,"following":16,"created_at":"2020-09-26T10:39:41Z","updated_at":"2021-06-13T15:50:21Z","private_gists":0,"total_private_repos":10,"owned_private_repos":10,"disk_usage":145696,"collaborators":49,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as i786m 
+[info] 
